@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/ed1990/cll89htrx00n901pb3kms2ksx',
-    accessToken: 'pk.eyJ1IjoiZWQxOTkwIiwiYSI6ImNsZW1pYzd6eDAzeDMzc284Nm15MTk4aGQifQ.-6e7gMXtxeYwyRWWM-5bPA',
+    accessToken: 'pk.eyJ1IjoiZWQxOTkwIiwiYSI6ImNsbDhhNnR4bjBnaXQzZHJteG53ZXJuanYifQ.iMG4DLNPPGon9HXYFwyQxw',
     showMarkers: false,
     markerColor: '#3FB1CE',
     projection: 'globe',
@@ -13,7 +13,7 @@ var config = {
     title: '<span style="font-family:sans; padding: 0.5vh; border-radius: 10px; color:#141414; font-size:1.6rem; background:#ffffff;" >Atlas of Leadership</span>',
     subtitle: '<span style=" font-family: Arial; color:#141414; font-size:2.4rem; background:#ffffff;" >Navigating Academic Legacies, Gender and Generations</span>',
     byline: '<p><a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a></p>',
-    footer: '<p style="margin-top:1px; margin-bottom:1px;">14 august 2023 </p> <p style="margin-top:1px; margin-bottom:1px;">Data source: wikipedia.org, britannica.com, blackpast.org, official presidency websites </p>',
+    footer: '<p style="margin-top:1px; margin-bottom:1px;">14 august 2023 </p> <p style="margin-top:1px; margin-bottom:1px;">Data source: wikipedia.org, britannica.com, blackpast.org, data from the official websites of presidential administrations from multiple countries </p>',
     chapters: [
         {
             id: 'Methodology',
@@ -51,7 +51,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'This piece aims to comprehensively analyze the educational background, generational dynamics, and gender representation of global heads of state - as of August 11, 2023. Data was sourced from authoritative outlets, including official presidential websites, reputable news articles, and Wikipedia entries. ',
+            description: 'This piece aims to comprehensively analyze the educational background, generational dynamics, and gender representation of global heads of state - as of August 11, 2023. Data was sourced from authoritative outlets, including official presidential websites, reputable news articles, and Wikipedia entries. <a href="https://en.wikipedia.org/wiki/List_of_academic_fields" target="_blank">Here</a> is the explanation of the academic disciplines used for grouping the data.  ',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
