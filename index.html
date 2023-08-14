@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>story copii</title>
+    <title>story leaders</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
@@ -85,9 +85,9 @@
         }
         #footer {
             width: 100%;
-            min-height: 5vh;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
+            min-height: 1vh;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
             text-align: center;
             line-height: 25px;
             font-size: 13px;
@@ -734,9 +734,9 @@ for (const feature of geojson.features) {
     new mapboxgl.Marker(el)
     .setLngLat(feature.geometry.coordinates)
     .setPopup(
-        new mapboxgl.Popup({ offset: 25 }) // add popups
+        new mapboxgl.Popup({ offset:25, closeOnClick:true, closeButton:false, focusAfterOpen:true, closeOnMove:true,}) // add popups
         .setHTML(
-        `<h3>${feature.properties.Title}</h3><p><img src=${url} style= "width:70%; height:100%"> </p><p>${feature.properties['Head of state']}</p><p>${feature.properties['Gender']}</p><p>${feature.properties['University']}</p><p>${feature.properties['Generation']}</p>`
+        `<h3 style="margin-top:1px; margin-bottom:1px;">${feature.properties.Title}</h3><p style="margin-top:1px; margin-bottom:1px;"><img src=${url} style= "width:70%; height:100%"> </p><p style="margin-top:1px; margin-bottom:1px;"><b>Head of State:</b> ${feature.properties['Head of state']}</p><p style="margin-top:1px; margin-bottom:1px;"><b>Gender:</b>${feature.properties['Gender']}</p><p style="margin-top:1px; margin-bottom:1px;"><b>University:</b>${feature.properties['University']}</p><p style="margin-top:1px; margin-bottom:1px;"><b>Generation:</b>${feature.properties['Generation']}</p>`
         )
     )
     .addTo(map);
