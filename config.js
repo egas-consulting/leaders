@@ -12,19 +12,19 @@ var config = {
     auto: false,
     title: '<span style="font-family:sans; padding: 0.5vh; border-radius: 10px; color:#141414; font-size:1.6rem" >Atlas of Leadership</span>',
     subtitle: '<span style=" font-family: Arial; color:#141414; font-size:2.4rem" > Navigating Academic Legacies, Gender, and Generations</span>',
-    byline: '<p><a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a></p> <p style="margin-left:2vh; margin-right:2vh" ><span style="font-family: Arial; color:#141414; font-size:1.2rem" >In an era where leadership takes center stage on the global platform, a groundbreaking interactive map titled "Atlas of Leadership: Navigating Academia, Gender, and Generations" offers an unprecedented exploration of head of state figures from around the world. This digital marvel takes users on a captivating journey through the lives of leaders, spotlighting their academic roots, gender dynamics, and generational influences.</span></p>',
-    footer: '<br> 1 iunie 2023 </br> <br> Creat folosind <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a> <p>Ilustrația este făcută cu Microsoft Bing Image creator</p>',
+    byline: '<p><a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a></p>',
+    footer: '<br> 14 august 2023 </br> <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling </a>',
     chapters: [
         {
-            id: 'slug-style-id',
+            id: 'Methodology',
             alignment: 'center',        
-            hidden: true,
+            hidden: false,
             title: '',
             image: '',
-            description: '',
+            description: 'In an era where leadership takes center stage on the global platform, The Atas of Leadership offers an exploration of head-of-state figures from around the world. The interactive map takes users on a captivating journey through the lives of leaders, spotlighting their academic roots, gender dynamics, and generational influences.',
             location: {
                 center: [12.02595, 49.90885],
-                zoom: 1,
+                zoom: 2,
                 pitch: 60,
                 bearing: 0,
             },
@@ -46,12 +46,12 @@ var config = {
             ]
         },
         {
-            id: 'slug-style-id5',
+            id: 'Methodology2',
             alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'n an era where leadership takes center stage on the global platform, a groundbreaking interactive map titled "Atlas of Leadership: Navigating Academia, Gender, and Generations" offers an unprecedented exploration of head of state figures from around the world. This digital marvel takes users on a captivating journey through the lives of leaders, spotlighting their academic roots, gender dynamics, and generational influences.',
+            description: 'This piece endeavors to comprehensively analyze the educational background, generational dynamics, and gender representation of global heads of state as of August 11, 2023. Data was sourced from authoritative outlets, including official presidential websites, reputable news articles, and Wikipedia entries. ',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -80,73 +80,104 @@ var config = {
 
         
         {
-            id: 'slug-style-id3',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'În funcție de țara unde se naște, sunt șanse mai mari sau mai mici ca un copil să fie o „fetiță cu chibrituri”, care nici măcar nu apucă să supraviețuiască primilor ani. Sau un „Oliver Twist” care trăiește o viață viciată de sărăcia familiei. Poate că e o Cenușăreasă orfană sau o Heidi crescută de bunici.<img src="./foh.png" class="center">',
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 2,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: 'slug-style-id4',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'Poate că e un copil ca eroul din Narnia, ai cărui părinți sunt educați și îl formează după chipul și asemănarea lor. Sau o Alice într-o țară a minunilor educației, unde are șansa la o educație care să-i dezvolte competențele și abilitățile așa cum trebuie. În fine, poate că e un Huck Finn, expus abuzurilor de toate felurile. <img src="./nah.png" class="center">',
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 2,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        
-        {
-            id: 'slug-style-id6',
+            id: 'Methodology3',
             alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'În partea a doua a acestei povești vizuale despre copiii lumii în care trăim, ne concentrăm pe formarea primită în primii ani de viață, de la părinți. În fiecare țară, se pune accent pe diverse valori și lucruri pe care părinții le consideră importante în viață, fără ca micii copii să aibă vreun cuvânt de spus. Plecând de la un studiu World Values Survey, facem o incursiune printre copiii din câteva țări reprezentative pentru regiunile Europei, să vedem cum îi modelează cultural și social părinții lor, încă de mici.',
+            description: 'Choosing heads of state, in contrast to heads of government, provides a distinctive perspective on the explicit mandates granted by the citizens. In most countries around the world, heads of state are elected through the popular vote of citizens. This process contrasts with selecting heads of government and offers a unique viewpoint into the specific mandates given by the people.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 2,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+        {
+            id: 'Methodology4',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<img src="./legend.png" class="center">',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 2,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'Overview',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<img src="/first chart.png">',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 2,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        
+        {
+            id: 'Overview2',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Of all current heads of state, 4.5% hail from Oxford University, 3.4% from Royal Military Academy Sandhurst, and 2.2% from Cambridge. Over half have degrees from multiple institutions.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -175,12 +206,12 @@ var config = {
 
 
         {
-            id: 'exp1',
-            alignment: 'left',
+            id: 'Europe',
+            alignment: 'center',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Fetița cu chibrituri </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Hans Christian Andersen </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Moartea  </span> </p>',
+            title: 'Europe',
             image: '',
-            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./fetita.png"></div> Povestea emoționantă, scrisă de Hans Christian Andersen, se învârte în jurul unei tinere fete sărace, care încearcă să vândă chibrituri într-o seară de Revelion înghețată. Este desculță, îmbrăcată prost și nu are adăpost. Încearcă să se încălzească cu focul de la chibrituri, însă moare de frig până a doua zi dimineață.',
+            description: 'In Europe, out of 43 heads of state, 8 are women, constituting 18%. This marks the highest ratio of men to women among all five continents. The predominant age group among them comprises baby boomers and Generation Xers. Most of these leaders have completed their education in the field of Professions and Applied Sciences.',
             location: {
                 center: [24.233145, 45.976924],
                 zoom: 5,
@@ -205,15 +236,15 @@ var config = {
             ]
         },
         {
-            id: 'ind1',
-            alignment: 'right',
+            id: 'Asia',
+            alignment: 'center',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem"  >Indicator: Rata mortalității la copiii până în vârsta de 5 ani </span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Malta </p>',
+            title: 'Asia',
             image: '',
-            description: 'E vorba de probabilitatea ca un nou-născut să moară înainte de a atinge vârsta de 5 ani, exprimată per 1.000 de nașteri vii. În 2021, 5 milioane de copii sub vârsta de 5 ani au murit, în toată lumea. În UE mor, în medie, 3,7 copii din 1000 cu vârsta sub 5 ani.  La nivel global, bolile infecțioase, inclusiv pneumonie, diaree și malarie, rămân principalele cauze ale deceselor la copiii sub 5 ani, alături de nașterea prematură și complicațiile legate de naștere. Copiii din România și Bulgaria sunt fetițele cu chibrituri ale Europei. Acestea sunt țările UE unde mor cei mai mulți copii sub 5 ani.',
+            description: 'Within Asia, among a total of 47 heads of state, a mere two are women, holding office in Singapore and India. The prevailing age group among this leadership cohort is constituted by baby boomers, although the presence of two millennials is also notable. The educational background of most of these leaders lies in the realm of Professions and Applied Sciences.',
             location: {
-                center: [24.233145, 45.976924],
-                zoom: 6,
+                center: [79.421513, 42.994603],
+                zoom: 4,
                 pitch: 60,
                 bearing: 0,
             },
@@ -235,20 +266,20 @@ var config = {
             ]
         },
         {
-            id: 'ind1.1',
-            alignment: 'right',
+            id: 'Africa',
+            alignment: 'center',
             hidden: false,
-            title: '',
+            title: 'Africa',
             image: '',
-            description: '<iframe title="Rata mortalității la copiii până în vârsta de 5 ani (%)" aria-label="Map" id="datawrapper-chart-Y5Mo0" src="https://datawrapper.dwcdn.net/Y5Mo0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>',
+            description: 'In the context of Africa, out of a collective of 54 heads of state, only two are women, serving as leaders in Ethiopia and Tanzania. This stands as the most meager ratio of female-to-male heads of state across the globe. Among this assembly of leaders, the prevailing generational representation leans towards baby boomers, although the distinction of having three millennials is noteworthy. The academic foundation of the majority of these leaders is rooted in the domain of Professions and Applied Sciences. Furthermore, within this continent, two out of three global instances of heads of state with education in the natural sciences field can be found.',
             location: {
-                center: [24.233145, 45.976924],
-                zoom: 7,
+                center: [20.947116, 5.211306],
+                zoom: 4,
                 pitch: 60,
                 bearing: 0,
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -265,20 +296,20 @@ var config = {
             ]
         },
         {
-            id: 'exp2',
-            alignment: 'left',
+            id: 'America',
+            alignment: 'center',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Cenușăreasa </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Frații Grimm, Charles Perrault </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Orfanii </span> </p>',
+            title: 'America',
             image: '',
-            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./cenusareasa.png"></div>Cenușăreasa este o tânără fată orfană care trăiește cu o mamă vitregă și surori vitrege crude. În ciuda dificultăților, ea rămâne amabilă și plină de speranță. Cu ajutorul Zânei Bune, Cenușăreasa participă la un bal regal, unde cucerește inima prințului.',
+            description: 'Across the American continent, among a total of 35 heads of state, four are women. Within this group of leaders, the dominant generational presence is from the baby boomer cohort. This continent also stands out as the one where a majority of heads of state have pursued their education in the realm of Humanities and Social Sciences.',
             location: {
-                center: [33.177598, 35.103830],
+                center: [-65.595005, -6.719165],
                 zoom: 5,
                 pitch: 60,
                 bearing: 0,
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -296,74 +327,14 @@ var config = {
         },
         {
             id: 'ind2',
-            alignment: 'right',
+            alignment: 'center',
             hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata mortalității materne</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: Cipru, Letonia, Ungaria </p>',
+            title: 'Use the interactive features',
             image: '',
-            description: 'E vorba de mamele care mor din cauza unor complicații de sănătate, în timpul sarcinii sau nașterii. Între 2000 și 2020, rata mortalității materne globale (MMR) a scăzut cu 34% - de la 342 de decese la 223 de decese la 100.000 de nașteri vii, conform estimărilor interinstituționale ale ONU.',
+            description: 'Swipe, scroll, zoom and click on each head of state for further details.',
             location: {
                 center: [33.177598, 35.103830],
-                zoom: 6,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: 'ind2.1',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '<iframe title="Rata mortalității materne (%)" aria-label="Map" id="datawrapper-chart-SQyf0" src="https://datawrapper.dwcdn.net/SQyf0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}(); </script>',
-            location: {
-                center: [33.177598, 35.103830],
-                zoom: 7,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: 'exp3',
-            alignment: 'left',
-            hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Oliver Twist </span> <p><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1rem" >De Charles Dickens </p> <p> </span><span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.4rem" >Tema: Sărăcie </span> </p>',
-            image: '',
-            description: '<div style="width:400px; height:auto; padding:5px;"> <img src="./oliver.png"></div>Romanul clasic al lui Charles Dickens urmărește viața unui tânăr orfan, care crește în condițiile aspre ale unei instituții de ocrotire din Anglia secolului al XIX-lea. După ce trece prin abuzuri și greutăți, Oliver evadează și ajunge să fie exploatat în lumea infracțională a Londrei. ',
-            location: {
-                center: [24.233145, 45.976924],
-                zoom: 4,
+                zoom: 2,
                 pitch: 60,
                 bearing: 0,
             },
@@ -386,19 +357,50 @@ var config = {
         },
         {
             id: 'ind3',
-            alignment: 'right',
-            hidden: false,
-            title: '<span style=" font-family: playfair display, serif; color:#926834; text-align: center; font-size:2rem" >Indicator: Rata deprivării materiale severe la copiii sub 18 ani</span> <p> <span style=" font-family: playfair display, serif; color:#2A2A2A; font-size:1.2rem" >Top state: România, Bulgaria, Grecia </p>',
+            alignment: 'left',
+            hidden: true,
+            title: '',
             image: '',
-            description: 'Sărăcia nu e doar un cuvânt generic pentru cei care nu au bani. Se traduce în situații extrem de concrete, în statisticile UE. Conform Eurostat, deprivarea materială severă apare atunci când cel puțin 7 din 13 privațiuni există în viața unui copil.',
+            description: '',
             location: {
-                center: [24.233145, 45.976924],
-                zoom: 5,
+                center: [33.177598, 35.103830],
+                zoom: 2,
                 pitch: 60,
                 bearing: 0,
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+
+        {
+            id: 'ind3',
+            alignment: 'left',
+            hidden: true,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [33.177598, 35.103830],
+                zoom: 2,
+                pitch: 60,
+                bearing: 0,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -415,66 +417,6 @@ var config = {
             ]
         },
         
-        {
-            id: 'fin3',
-            alignment: 'center',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'Există o tendință în aceste regiuni de a subestima sau de a neglija alte abilități și calități care nu sunt direct legate de munca asiduă. Caracteristici precum gestionarea banilor, altruismul sau imaginația pot fi trecute pe plan secundar, prioritate având munca și realizările materiale. Acest lucru se datorează în mare parte necesității de a rezolva problemele imediate și de a construi o stabilitate financiară.',
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 1,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: 'fin4',
-            alignment: 'center',
-            hidden: false,
-            title: '',
-            image: '',
-            description: 'În 2023, pe întreg globul trăiau 2,2 miliarde de copii, iar aproximativ 80 de milioane dintre ei trăiau în Uniunea Europeană. Fiecare s-a născut și va crește în condiții și cu șanse diferite, în funcție de țara și familia unde a venit pe lume.',
-            location: {
-                center: [12.02595, 49.90885],
-                zoom: 1,
-                pitch: 60,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
 
 
         
