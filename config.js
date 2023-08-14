@@ -146,7 +146,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<img src="/firstchart.png">',
+            description: '<img src="./firstchart.png" class="center">',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
