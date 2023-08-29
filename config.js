@@ -13,7 +13,7 @@ var config = {
     title: '<span style="font-family:sans; padding: 0.5vh; border-radius: 10px; color:#141414; font-size:1.6rem; background:#ffffff;" >Atlas of Leadership</span>',
     subtitle: '<span style=" font-family: Arial; color:#141414; font-size:2.4rem; background:#ffffff;" >Navigating Academic Legacies, Gender and Generations</span>',
     byline: '<p><a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a></p>',
-    footer: '<p style="margin-top:1px; margin-bottom:1px;">14 august 2023 </p> <p style="margin-top:1px; margin-bottom:1px;">Data source: wikipedia.org, britannica.com, blackpast.org, data from the official websites of presidential administrations from multiple countries </p>',
+    footer: '<p style="margin-top:1px; margin-bottom:1px;"><b>14 august 2023 </b></p> <p style="margin-top:1px; margin-bottom:1px;"><b>Data source:</b> wikipedia.org, britannica.com, blackpast.org, data from the official websites of presidential administrations from multiple countries </p> <p><b>Note:</b> Afghanistan - Head of state`s year of birth is approximate, there is no clear data available. The presidency of Bosnia and Herzegovina is a three-member body, one Bosniak, one Serb, and one Croat. which collectively serves. Although the unsubdivided body is the collective head of state, one member is designated as Chairperson. The position of Chairperson rotates twice around the three members every eight months, with the candidate receiving the most votes overall becoming the first Chairperson over the four-year term.</p>',
     chapters: [
         {
             id: 'Methodology',
@@ -211,7 +211,7 @@ var config = {
             hidden: false,
             title: 'Europe',
             image: '',
-            description: 'In Europe, out of 43 heads of state, 8 are women, constituting 18%. This marks the highest ratio of men to women among all five continents. The predominant age group is that of Baby Boomers and Generation Xers. Most of these leaders have completed their education in the field of Professions and Applied Sciences.',
+            description: 'In Europe, out of 43 heads of state, 8 are women, constituting 18.6%. This marks the highest ratio of men to women among all continents. The predominant age group is that of Baby Boomers and Generation Xers. Most of these leaders have completed their education in the field of Professions and Applied Sciences (e.g.: law, medicine etc.).',
             location: {
                 center: [24.233145, 45.976924],
                 zoom: 5,
@@ -271,7 +271,7 @@ var config = {
             hidden: false,
             title: 'Africa',
             image: '',
-            description: 'In the context of Africa, out of a collective of 54 heads of state, only two are women, serving as leaders in Ethiopia and Tanzania. This stands as the most meager ratio of female-to-male heads of state across the globe. Among this assembly of leaders, the prevailing generational representation leans towards Baby Boomers, although the distinction of having three Millennials is noteworthy. The academic foundation of the majority of these leaders is rooted in the domain of Professions and Applied Sciences. Furthermore, within this continent, two out of three global instances of heads of state with education in the natural sciences field can be found.',
+            description: 'In the context of Africa, out of a collective of 54 heads of state, only two are women, serving as leaders in Ethiopia and Tanzania. This stands as the most meager ratio of female-to-male heads of state across the globe. Among this assembly of leaders, the prevailing generational representation leans towards Baby Boomers, although the distinction of having three Millennials is noteworthy. The academic foundation of the majority of these leaders is rooted in the domain of Professions and Applied Sciences. Furthermore, within this continent, two out of four global instances of heads of state with education in the natural sciences field (e.g.: biology, physics etc.) can be found.',
             location: {
                 center: [20.947116, 5.211306],
                 zoom: 4,
@@ -301,7 +301,7 @@ var config = {
             hidden: false,
             title: 'The Americas',
             image: '',
-            description: 'Across the this region, among a total of 35 heads of state, four are women. Within this group of leaders, the dominant generational presence is from the Baby Boomer cohort. This continent also stands out as the one where a majority of heads of state have pursued their education in the realm of Humanities and Social Sciences.',
+            description: 'Across the this region, among a total of 35 heads of state, four are women. Within this group of leaders, the dominant generational presence is from the Baby Boomer cohort. This continent also stands out as the one where a majority of heads of state have pursued their education in the realm of Humanities and Social Sciences (e.g.: history, political science, arts etc.).',
             location: {
                 center: [-65.595005, -6.719165],
                 zoom: 5,
