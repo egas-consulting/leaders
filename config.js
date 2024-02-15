@@ -116,7 +116,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<img src="./legend.png" class="center">',
+            description: '<img src="./legend.png" style="width: 70%; max-width: 100%;" class="center">',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
@@ -146,7 +146,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<img src="./firstchart.png" class="center">',
+            description: '<img src="./firstchart.png" style="width: 70%; max-width: 100%;" class="center">',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 1,
